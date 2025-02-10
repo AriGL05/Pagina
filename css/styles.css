@@ -804,14 +804,12 @@ p {
    #section_into_soil { height: 80vh; }
 }
 
-.div_section_into_soil {
-   /* height: 100%; */
+#section_into_soil div{
    justify-self: center;
    height: 100%;
    justify-content: space-between;
 }
 .arrows {
-   /* background-color: #001628; */
    margin-top: 8%;
    height: 100%;
    width: 50vw;
