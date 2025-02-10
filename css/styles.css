@@ -37,7 +37,9 @@
    color: var(--color--dark);
    --porcent--change--color: 5%;
 }
-
+@media screen and (min-width: 1440px) {
+   :root { --porcent--change--color: 90%;}
+}
 @media screen and (max-width: 1440px) {
    :root { --porcent--change--color: 90%;}
 }
