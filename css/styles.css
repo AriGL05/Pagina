@@ -3,7 +3,6 @@
    padding: 0;
    margin: 0%;
    box-sizing: border-box;
-   /* font-weight: 900; */
 }
 
 :root {
@@ -148,17 +147,9 @@ a:hover {
    background-color: var(--color--bg--dark);
    color: var(--color--primary);
 }
-.bg-light {
-   background-color: var(--color--primary);
-   color: var(--color--bg--dark);
-}
 .bg-blue {
    background-color: var(--color--bg--blue);
    color: var(--color--bg--dark);
-}
-.bg-brown {
-   background-color: var(--color--bg--brown);
-   color: var(--color--light);
 }
 .bg-blue-brown {
    background: rgb(110,108,79);
@@ -169,7 +160,6 @@ a:hover {
    #39909d 100%);
 }
 
-.bg-green { background-color: transparent; }
 /* #endregion BACKGROUNDS */
 
 
@@ -339,11 +329,6 @@ section.bg-dark {
    color: var(--color-primary);
 }
 
-section.bg-light {
-   background-color: transparent;
-   color: var(--color--bg--dark);
-}
-
 .section {
    height: 100vh;
    padding: 5%;
@@ -351,11 +336,6 @@ section.bg-light {
 .section.bg-dark {
    background-color: #1F191A;
    color: var(--color--primary);
-}
-
-.section.bg-light {
-   background-color: transparent;
-   color: var(--color--bg--dark);
 }
 
 hr.separator {
