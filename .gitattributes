@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.psd filter=lfs diff=lfs merge=lfs -text
+C:/Users/cotto/Documents/mollyds-loop-540p_compressed.mp4 filter=lfs diff=lfs merge=lfs -text
+C:/Users/cotto/Documents/Pagina/assets/mollyds-loop-540p_compressed.mp4 filter=lfs diff=lfs merge=lfs -text
