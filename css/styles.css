@@ -11,21 +11,12 @@
    /* #region COLORS */
 
    --color--primary: #99D9D9;
-   --color--secondary: #68A2B9;
    --color--light: #F2F0E9;
    --color--dark: #231F20;
-   --color--bluegreen: #5BB0BC;
-   --color--brown: #736C52;
    --color--bg--dark: #001628;
-   --color--green: #219F94;
-   --color--red: #EB5353;
-
    --color--dark--transparent: #001628ea;
-   --color--light: #F2F0E9;
    --color--bg--blue: #59A9B5;
    --color--bg--brown: #6E6C4F;
-
-
    --color--scroll: #68A2B9;
    --color--bg--scroll: #343A40;
    /* #endregion COLORS */
@@ -303,7 +294,6 @@ nav {
 }
 .navbar li {
   margin-right: 1rem;
-  /* color: var(--color--dark); */
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   border-bottom: solid 3px var(--color--dark--transparent);
 }
