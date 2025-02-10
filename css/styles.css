@@ -788,7 +788,7 @@ p {
 
 #section_into_soil {
    height: 200vh;
-   background-image: url("../assets/arrow-head.png");
+   background-image: url("../assets/arrow-head.webp");
    background-position: top;
    background-repeat: no-repeat;
    background-size: contain;
@@ -833,7 +833,7 @@ p {
 .bg-arrow {
    height: 1.25em;
    width: 100vw;
-   background-image: url("../assets/bg-arrow.png");
+   background-image: url("../assets/bg-arrow.webp");
    background-position: center;
    background-repeat: no-repeat;
    background-size: 30%;
