@@ -3,7 +3,6 @@
    padding: 0;
    margin: 0%;
    box-sizing: border-box;
-   /* font-weight: 900; */
 }
 
 :root {
@@ -883,7 +882,6 @@ p {
    justify-content: space-between;
 }
 .arrows {
-   /* background-color: #001628; */
    margin-top: 8%;
    height: 100%;
    width: 50vw;
