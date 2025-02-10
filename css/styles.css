@@ -550,10 +550,7 @@ hr.separator-sm {
 /* #endregion FONTS */
 
 /* #region TEXTS */
-.text-dark {color: var(--color--dark);}
 .text-light {color: var(--color--light);}
-.text-green {color: var(--color--green);}
-.text-hero {font-size: xx-large;}
 .hero {
    font-family: 'Bebas Neue', cursive;
    display: flex;
@@ -723,9 +720,6 @@ p {
 .align-self-end { align-self: end; }
 
 .text-center { text-align: center;}
-.text-start { text-align: start;}
-.text-end { text-align: end;}
-
 /* #endregion JUSTIFY & ALIGN */
 
 #logo_intro {
