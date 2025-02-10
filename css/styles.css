@@ -344,6 +344,7 @@ hr.separator {
    height: 100vh;
    justify-self: center;
 }
+.w-100 {width: 100%;}
 /* #endregion HEIGHT */
 
 p {
