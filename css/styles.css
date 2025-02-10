@@ -244,8 +244,6 @@ img {
 .img-3 {width: 15%;}
 .img-4 {width: 20%;}
 .img-5 {width: 25%;}
-
-
 .img-75 {width: 75%;}
 .img-100 {width: 100%;}
 .border-circle {
@@ -371,20 +369,6 @@ hr.separator {
    left: 50%;
    transform: translate(-50%, 0);
 }
-hr.separator-sm {
-   background-color: var(--color--light);
-   border: none;
-   height: 3rem;
-   width: 2px;
-   position: relative;
-   z-index: 1;
-   top: 0;
-   left: 50%;
-   transform: translate(-50%, 0);
-}
-
-
-
 
 
 .container-grid {

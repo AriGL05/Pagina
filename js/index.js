@@ -23,10 +23,17 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 favicon.href = logo;
 //#endregion DETETCTAR DARK-MODE EN EL NAVEGADOR
 
+const animated_header = () =>{
+   document.querySelectorAll('.animate-heading').forEach(el => {
+      el.setAttribute('data-aos', 'fade-up');
+      el.setAttribute('data-aos-duration', '1000');
+      el.setAttribute('data-aos-easing', 'ease-in-out-back');
+      el.setAttribute('data-aos-anchor-placement', 'center-bottom');
+    });
+}
 
 
-
-document.addEventListener("DOMContentLoaded", function() {
+ document.addEventListener("DOMContentLoaded", function () {
    document.querySelector("body").classList.add("scroll-y-none");
    document.querySelector("#img_hero_1").classList.remove("img_left_right");
    document.querySelector("#img_hero_2").classList.remove("img_right_left");
@@ -35,6 +42,17 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(() => animation_1(), timeTimeOut);
       setTimeout(() => animation_2(), timeTimeOut += time);
       setTimeout(() => animation_3(), timeTimeOut += time + 2500);
-   }
+   };
    animations();
-})
+
+   setTimeout(() => {
+      animated_header();
+
+      AOS.init({
+         once: false,
+         offset: 150,
+      });
+
+      console.log("AOS initialized after animations");
+   }, timeTimeOut + time);
+});
