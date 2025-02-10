@@ -16,18 +16,6 @@ const animation_3 = () => {
    document.querySelector("body").classList.remove("scroll-y-none");
 }
 
-
-
-
-//#region EFECTO PARALLAX
-window.onscroll = function () {
-   let position = window.pageYOffset || document.documentElement.scrollTop;
-   let img_hamburger_1 = document.getElementById("img_hamburger_1");
-   let section_hamburgers = document.getElementById("section_hamburgers");
-}
-//#endregion EFECTO PARALLAX
-
-
 //#region DETETCTAR DARK-MODE EN EL NAVEGADOR
 const favicon = document.querySelector("#favicon");
 let logo = "assets/crown_logo.png"
