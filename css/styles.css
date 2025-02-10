@@ -20,13 +20,6 @@
    --color--scroll: #68A2B9;
    --color--bg--scroll: #343A40;
    /* #endregion COLORS */
-
-   /* #region SCREENS */
-   --screen--max--size--x-small: 576px; /* <576px */
-   --screen--max--size--small: 767px; /* >=576px */
-   --screen--max--size--medium: 991px; /* >=992px */
-   --screen--max--size--large: 1199px; /* >=1200px */
-   --screen--max--size--x-large: 1399px; /* >=1400px */
    font-family: 'Roboto', sans-serif;
 
    font-size: var(--text--size);

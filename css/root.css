@@ -40,7 +40,6 @@ body {
    margin: 0;
    padding: 0;
    width: 100%;
-   /* height: 100%; */
    position: relative;
 }
 
@@ -72,21 +71,6 @@ body{
    position: relative;
    overflow-x: hidden !important;
 }
-
-
-
-/*
-|   ---------------------------------------------------------------------------------
-|   Body > div
-|   ---------------------------------------------------------------------------------
-|   
-|   All div tags inside the body do not allow horizontal side scrolling.
-|
-*/
-body>div {
-   /* overflow: hidden !important; */
-}
-
 
 
 /*
